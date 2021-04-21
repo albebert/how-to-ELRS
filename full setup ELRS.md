@@ -1,5 +1,8 @@
 # Mise en place du protocole Express LRS sur un TX R9M et RX R9 Mini/MM
 
+# WORK IN PROGRESS !!!
+
+
 Bienvenue dans ce tuto de mise en place du protocole Express LRS. 
 Le but est de vous montrer comment mettre en place de A à Z ce protocole 
 de manière complète et simple sur de matériel commun. Il sera à adapter
@@ -8,11 +11,11 @@ besoin le cas échéant sur le [wiki du projet](https://github.com/ExpressLRS/Ex
 
 1. [Installation des outils nécessaires](https://github.com/albebert/how-to-ELRS/blob/main/full%20setup%20ELRS.md#installation-des-outils-n%C3%A9cessaires)
 2. [Mises à jour de la radio](https://github.com/albebert/how-to-ELRS/blob/main/full%20setup%20ELRS.md#mise-%C3%A0-jours-de-la-radio)
-3. Modification hardware du TX
-4. Compilation du firmware TX
-5. Installation du firmware TX
-6. Configuration d'openTX sur la radio
-7. Compilation et installation du firmware RX
+3. [Modification hardware du TX](https://github.com/albebert/how-to-ELRS/blob/main/full%20setup%20ELRS.md#modification-hardware-du-tx)
+4. [Compilation du firmware TX](https://github.com/albebert/how-to-ELRS/blob/main/full%20setup%20ELRS.md#compilation-du-firmware-tx)
+5. [Installation du firmware TX](https://github.com/albebert/how-to-ELRS/blob/main/full%20setup%20ELRS.md#installation-du-firmware-tx)
+6. [Configuration d'openTX sur la radio](https://github.com/albebert/how-to-ELRS/blob/main/full%20setup%20ELRS.md#configuration-dopentx-sur-la-radio)
+7. [Compilation et installation du firmware RX](https://github.com/albebert/how-to-ELRS/blob/main/full%20setup%20ELRS.md#compilation-et-installation-du-firmware-rx)
 
 
 ## Installation des outils nécessaires
