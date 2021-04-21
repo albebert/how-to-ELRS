@@ -56,3 +56,59 @@ Patientez pendant la sauvegarde du firmware
 
 #### backup de la SD
 
+Onglet Fichier / Synchroniser la SD
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_SD.png"/>
+
+Choisissez le dossier local où sauvegarder votre SD et vérifier les paramètre en suivant la capture suivante et cliquez sur Démarrer 
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_SD2.png"/>
+
+Patientez pendant la sauvegarde de la SD 
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_SD3.png"/>
+
+
+#### Backup de vos modèles
+
+Onglet Transfert / Lire les paramètres et modèles depuis la radio
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_models.png"/>
+
+Vous Verrez apparaître une fenêtre avec le snom de vos modèles, allez dans l'onglet Fichier/Enregistrer sous...
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_models2.png"/>
+
+Choisissez l'emplacement et le nom de la sauvegarde
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_models3.png"/>
+
+### Mise à jour du firmware
+
+Maintenant que tout est sauvegarder passons aux choses sérieuses !
+
+Nous allons mettre à jour le firmware de la radio : 
+
+Onglet Transfert/Transférer le firmware à la radio
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/update_radio_firmware.png"/>
+
+Sélectionner le firmware précédement télécharger (exemple : opentx-x9d+-2.3.1.bin) cochez "Vérifier la compatibilité du hardware" et cliquez sur Transférer.
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/update_radio_firmware2.png"/>
+
+Patientez pendant la mise à jour : 
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/update_radio_firmware3.png"/>
+
+### Mise à jour de la SD
+
+Une fois l'archive de la SD en 2.3.10 décompressée copier les fichiers depuis Windows vers la SD de votre radio (attention le débit est faible cette opération est plutôt longie)
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/update_radio_sd.png"/>
+
+Lorsque Windows vous indique des fichiers identiques cliquez sur Remplacer les fichiers dans la destination.
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/update_radio_sd2.png"/>
+
+
