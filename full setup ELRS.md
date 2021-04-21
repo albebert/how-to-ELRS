@@ -187,6 +187,9 @@ Nous avons deux actions à faire sur la radio afin que tout soit propre :
 
 Par défaut sur OpenTX l'ADC Filter est actif par defaut, il sert à "lisser" les commandes RC et va poser problème avec le bitrate du ELRS.
 
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/disable_adc.gif"/>
+
+
 ### Ajout du script Lua ELRS
 
 ELRS fournit un script lua pour gérer le module, vous pouvez le télécharger [ici](https://github.com/AlessandroAU/ExpressLRS/raw/master/src/lua/ELRS.lua).
