@@ -97,7 +97,7 @@ Onglet Transfert/Transférer le firmware à la radio
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/update_radio_firmware.png"/>
 
-Sélectionner le firmware précédemment télécharger (exemple : opentx-x9d+-2.3.1.bin) cochez "Vérifier la compatibilité du hardware" et cliquez sur Transférer.
+Sélectionner le firmware précédemment télécharger (exemple : opentx-x9d+-2.3.1.bin) cochez `Vérifier la compatibilité du hardware` et cliquez sur Transférer.
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/update_radio_firmware2.png"/>
 
@@ -159,24 +159,24 @@ Enfin cliquez sur BUILD
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/tx_firmware_compilation5.png"/>
 
-Une fois le build terminer l'outil vous ouvre le dossier de compilation, il faut copier le fichier "firmware.elrs" sur la SD de votre radio (créer un dossier ELRS)
+Une fois le build terminer l'outil vous ouvre le dossier de compilation, il faut copier le fichier `firmware.elrs` sur la SD de votre radio (créer un dossier ELRS)
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/tx_firmware_compilation6.png"/>
 
 ## Installation du firmware TX
 
-Vous aurez donc besoin du fichier "firmware.elrs" ainsi que du fichier [r9m_elrs_bl.frk](https://github.com/ExpressLRS/ExpressLRS/blob/master/src/bootloader/r9m_elrs_bl.frk?raw=true) qu'il faudra également transférer sur la SD de votre radio (dans le dossier ELRS).
+Vous aurez donc besoin du fichier `firmware.elrs` ainsi que du fichier [r9m_elrs_bl.frk](https://github.com/ExpressLRS/ExpressLRS/blob/master/src/bootloader/r9m_elrs_bl.frk?raw=true) qu'il faudra également transférer sur la SD de votre radio (dans le dossier ELRS).
 
 Sélectionner un modèle où le module externe est désactivé (non obligatoire mais je préfère cela évite que le module externe démarre)
 
 Faire un clique long sur la touche MENU de la radio, puis cliquez sur PAGE afin d'afficher le contenue de votre SD.
-Naviguer dans le dossier ELRS, puis sur le fichier "r9m_elrs_bl.frk", faire un appui long sur ENT puis sélectionner "Flasher le module externe"
+Naviguer dans le dossier ELRS, puis sur le fichier `r9m_elrs_bl.frk`, faire un appui long sur ENT puis sélectionner `Flasher le module externe`
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/flash_TX_bootloader.gif"/>
 
 Patientez pendant le flash du fichier (bootloader ELRS)
 
-Maintenant sélectionner le fichier "firmware.elrs" et flasher de nouveau le module externe.
+Maintenant sélectionner le fichier `firmware.elrs` et flasher de nouveau le module externe.
 
 Sélectionner maintenant le modèle où vous souhaitez passer en ELRS, et dans la configuration du module externe choisir le mode CRSF.
 Normalement si vous avez bien fait les choses, votre R9 devrait émettre sa music de startup.
@@ -228,7 +228,7 @@ Connection du rx à la radio via le smartport (⚫  - `GND`, 🔴  - `5V`, 🟡 
 
 <img src="https://oscarliang.com/ctt/uploads/2017/07/flash-frsky-r9-mini-rx-firmware-taranis-connection.jpg">
 
-En suivant la même procédure que pour le flash du bootloader du TX flasher le fichier "r9mm_elrs_bl.frk".
+En suivant la même procédure que pour le flash du bootloader du TX flasher le fichier `r9mm_elrs_bl.frk`.
 
 ### flash du firmware
 
