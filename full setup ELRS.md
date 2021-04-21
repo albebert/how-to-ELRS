@@ -200,7 +200,7 @@ IL faut le déposer dans le dossier `Scripts/Tools` de la SD de votre radio. Une
 
 Cet outil permet entre autre de choisir la puissance. Mais la partie intéressante pour le moment est sur la première ligne.
 
-<< AJOUTER capture du script>> 
+<img src="https://db3pap001files.storage.live.com/y4mRcOuzmzQxVR7YVNPVpnCf10KZNO-Jo_dEb8QJiMW5yGK-fJfU1Oa8huxBTLDqqMs3EIJav6HEQliExqKQsm0pbdyailxMDBZVAhnwUWS51j6fWK98p-1iHvMRIH5FxdVWP1rioH8nTI2SNMqykTBzHCaDwsDNVzEZuk0nXwvVEWiELDycAnHAstYYS3lblAx?width=1024&height=498&cropmode=none" width="60%">
 
 Vous devriez voir un 0:200, ce qui indique la chose suivante : 0 mauvais packet et 200 bon packets par secondes entre la radio et le TX cela indique que tout fonctionne.
 
