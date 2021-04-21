@@ -28,7 +28,7 @@ il vous faudra également l'archive de la SD en version [2.3.10](https://downloa
 
 ### backup de la radio
 
-Avant toute chose il est important de sauvegarder votre radio, pour ce faire nous allons utiliser TX Companion et sauvgarrdé :
+Avant toute chose il est important de sauvegarder votre radio, pour ce faire nous allons utiliser TX Companion et sauvegardé :
 - le firmware
 - la SD
 - la conf de vos modèles
@@ -37,11 +37,22 @@ Il faut commencer par allumer votre radio en mode bootloader pour ce faire appuy
 
 #### backup du firmware
 Onglet transfert / Lire le firmware de la radio
+
+
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_firmware.png"/>
+
+
 Sélectionner le dossier souhaitez et choisissez un nom.
-<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_firmware.png"/>
+
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_firmware2.png"/>
+
+
 Patientez pendant la sauvegarde du firmware
-<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_firmware.png"/>
+
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_firmware3.png"/>
+
 
 #### backup de la SD
 
