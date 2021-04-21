@@ -25,7 +25,7 @@ Nous aurons besoin de 3 outils (je ne détaille pas l'installation et vous mets 
 
 ## Mises à jour de la radio
 
-Pour que ELRS fonctionne il faut installer une version spécifique de OpenTX sur votre radio, la dernière en date est la version 2.3.10 pour ELRS).
+Pour que ELRS fonctionne il faut installer une version spécifique d’OpenTX sur votre radio, la dernière en date est la version 2.3.10 pour ELRS).
 Vous pouvez télécharger le firmware pour votre radio directement sur le [git](https://github.com/ExpressLRS/ExpressLRS/tree/master/OpenTX) du projet ELRS, ATTENTION à prendre le fichier correspondant à VOTRE radio (par exemple [opentx-x9d+-2.3.10.bin](https://github.com/ExpressLRS/ExpressLRS/blob/master/OpenTX/opentx-x9d%2B-2.3.10.bin) pour la X9D+)
 
 il vous faudra également l'archive de la SD en version [2.3.10](https://downloads.open-tx.org/2.3/release/sdcard/) il faut également prendre la version pour votre radio. ([ici](https://downloads.open-tx.org/2.3/release/sdcard/opentx-x9d%2B/sdcard-212x64-2.3V0030.zip) pour la X9D+)
@@ -79,7 +79,7 @@ Onglet Transfert / Lire les paramètres et modèles depuis la radio
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_models.png"/>
 
-Vous Verrez apparaître une fenêtre avec le snom de vos modèles, allez dans l'onglet Fichier/Enregistrer sous...
+Vous Verrez apparaître une fenêtre avec les noms de vos modèles, allez dans l'onglet Fichier/Enregistrer sous...
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_models2.png"/>
 
@@ -97,7 +97,7 @@ Onglet Transfert/Transférer le firmware à la radio
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/update_radio_firmware.png"/>
 
-Sélectionner le firmware précédement télécharger (exemple : opentx-x9d+-2.3.1.bin) cochez "Vérifier la compatibilité du hardware" et cliquez sur Transférer.
+Sélectionner le firmware précédemment télécharger (exemple : opentx-x9d+-2.3.1.bin) cochez "Vérifier la compatibilité du hardware" et cliquez sur Transférer.
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/update_radio_firmware2.png"/>
 
@@ -107,7 +107,7 @@ Patientez pendant la mise à jour :
 
 ### Mise à jour de la SD
 
-Une fois l'archive de la SD en 2.3.10 décompressée copier les fichiers depuis Windows vers la SD de votre radio (attention le débit est faible cette opération est plutôt longie)
+Une fois l'archive de la SD en 2.3.10 décompressée copier les fichiers depuis Windows vers la SD de votre radio (attention le débit est faible cette opération est plutôt longue)
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/update_radio_sd.png"/>
 
@@ -117,7 +117,7 @@ Lorsque Windows vous indique des fichiers identiques cliquez sur Remplacer les f
 
 ## Modification hardware du TX
 
-**Cette opération n'est nécessaire** <ins>**UNIQUEMENT</ins> **si vous avez un R9M 2018 (accst)**
+**Cette opération n'est nécessaire** <ins>**UNIQUEMENT**</ins> **si vous avez un R9M 2018 (accst)**
 
 Elle vise à permettre un baudrate de 400K sur ces modèles. Vous aurez besoin d'une résistance entre 300Ω et 1000Ω.
 
@@ -129,9 +129,9 @@ Il se peut que votre régulateur ne soit pas dans le même sens, il faut prendre
 
 ## Compilation du firmware TX
 
-Après avoir installer ExpressLRS Configurator lancé le et configurer les options suivantes : 
+Après avoir installé ExpressLRS Configurator lancé le et configurer les options suivantes : 
 
-Chaque option dispose d'une aide (en anglais ainsi qu'un liens vers le wiki bien pratique)
+Chaque option dispose d'une aide (en anglais ainsi qu'un lien vers le wiki bien pratique)
 
 Choisir la dernière version en date : 
 
@@ -145,9 +145,9 @@ Dans Device options sur la partie gauche :
 
 Choisir votre fréquence puis une binding phrase. Attention cette phrase devra être la même entre votre TX et TOUS vos RX elle sert de clef pour établir le bind direct entre le TX et les RX ! 
 
-<ins>ne mettez pas testlrs mais quelque chose pour vous et RETENEZ le !</ins> 
+<ins>ne mettez pas `testlrs` mais quelque chose pour vous et RETENEZ-le !</ins> 
 
-SURTOUT NE PAS COCHER R9M_UNLOCK_HIGHER_POWER ! cela nécessite un mod hardware afin de ventiler le TX, en effet vous ne pourrez pas dépasser les 250mW sans ce mode, ELRS utilisant des fréquence plus élevé que le firmware R9 le CPU chauffe énormément et nécessite un [refroidissement actif](https://github.com/ExpressLRS/ExpressLRS/wiki/R9M-Fan-Mod-Cover).
+SURTOUT NE PAS COCHER `R9M_UNLOCK_HIGHER_POWER` ! Cela nécessite un mod hardware afin de ventiler le TX, en effet vous ne pourrez pas dépasser les 250mW sans ce mode, ELRS utilisant des fréquences plus élevé que le firmware R9 le CPU chauffe énormément et nécessite un [refroidissement actif](https://github.com/ExpressLRS/ExpressLRS/wiki/R9M-Fan-Mod-Cover).
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/tx_firmware_compilation3.png"/>
 
@@ -167,25 +167,28 @@ Une fois le build terminer l'outil vous ouvre le dossier de compilation, il faut
 
 Vous aurez donc besoin du fichier "firmware.elrs" ainsi que du fichier [r9m_elrs_bl.frk](https://github.com/ExpressLRS/ExpressLRS/blob/master/src/bootloader/r9m_elrs_bl.frk?raw=true) qu'il faudra également transférer sur la SD de votre radio (dans le dossier ELRS).
 
-Selectionner un modèle où le module externe est désactiver (non obligatoire mais je préfère cela évite que le module externe démarre)
+Sélectionner un modèle où le module externe est désactivé (non obligatoire mais je préfère cela évite que le module externe démarre)
 
 Faire un clique long sur la touche MENU de la radio, puis cliquez sur PAGE afin d'afficher le contenue de votre SD.
-Naviguer dans le dossier ELRS, puis sur le fichier "r9m_elrs_bl.frk", faire un appuie long sur ENT puis sélectionner "Flasher le module externe"
+Naviguer dans le dossier ELRS, puis sur le fichier "r9m_elrs_bl.frk", faire un appui long sur ENT puis sélectionner "Flasher le module externe"
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/flash_TX_bootloader.gif"/>
 
 Patientez pendant le flash du fichier (bootloader ELRS)
 
-Maintenant selectionner le fichier "firmware.elrs" et flasher de nouveau le module externe.
+Maintenant sélectionner le fichier "firmware.elrs" et flasher de nouveau le module externe.
 
-Selectionner maintenant le modèle où vous souhaitez passer en ELRS, et dans la configuration du module externe choisir le mode CRSF.
-Normalement si vous avez bien fait les choses votre R9 devrait emettre sa music de startup.
+Sélectionner maintenant le modèle où vous souhaitez passer en ELRS, et dans la configuration du module externe choisir le mode CRSF.
+Normalement si vous avez bien fait les choses, votre R9 devrait émettre sa music de startup.
 
 ## Configuration d'openTX sur la radio
 
-Nous avons deux actions à faire sur la radio afin que tout soit propre : 
+Nous avons trois actions à faire sur la radio afin que tout soit propre : 
  
 ### Désactivation de l'ADC Filter
 
 Par défaut sur OpenTX l'ADC Filter est actif par defaut, il sert à "lisser" les commandes RC et va poser problème avec le bitrate du ELRS.
+Faire un clic long sur `MENU` puis aller sur la page 6 et remonter sur l'ADC Filter et enfin cliquer sur `ENT` pour le désactiver.
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/disable_adc.gif"/>
 
@@ -197,8 +200,15 @@ IL faut le déposer dans le dossier `Scripts/Tools` de la SD de votre radio. Une
 
 Cet outil permet entre autre de choisir la puissance. Mais la partie intéressante pour le moment est sur la première ligne.
 
+<< AJOUTER capture du script>> 
+
 Vous devriez voir un 0:200, ce qui indique la chose suivante : 0 mauvais packet et 200 bon packets par secondes entre la radio et le TX cela indique que tout fonctionne.
 
+### Configuration du modèle en CRSF
+
+Dans la configuration du modèle remplacer R9M par CRSF :
+
+![](https://oscarliang.com/ctt/uploads/2018/03/setup-tbs-crossfire-tx-rx-micro-nano-taranis-betaflight-fc-internal-external-rf-mode.jpg)
 
 ## Compilation et installation du firmware RX
 
@@ -211,7 +221,7 @@ Le flash du firmware du RX s'effectue également en deux étapes :
 Il faut récupérer le fichier [r9mm_elrs_bl.frk](https://github.com/AlessandroAU/ExpressLRS/blob/master/src/bootloader/r9mm_elrs_bl.frk?raw=true) et le transférer sur la radio (toujours dans le dossier ELRS).
 Puis le flasher via la méthode habituelle : 
 
-connection du rx à la radio via le smartport (⚫  - `GND`, 🔴  - `5V`, 🟡  - `S.Port`)
+Connection du rx à la radio via le smartport (⚫  - `GND`, 🔴  - `5V`, 🟡  - `S.Port`)
 
 
 <img src="https://cdn.discordapp.com/attachments/738450139693449258/773630998822780948/image0.jpg" width="40%">
@@ -256,7 +266,7 @@ Choisir la même release que pour le TX et ensuite la Target `Frsky_RX_R9MM_R9MI
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/rx_firmware_compilation.png"/>
 
-Ensuite dans le Device options sélectionner la même fréquence que pour le TX et <ins>SURTOUT</ins> la même Binding phrase (normalement elle devrait déjà être renseigner avec la précédente valeur)
+Ensuite dans le Device options sélectionner la même fréquence que pour le TX et <ins>SURTOUT</ins> la même Binding phrase (normalement elle devrait déjà être renseigné avec la précédente valeur)
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/rx_firmware_compilation2.png"/>
 
@@ -266,5 +276,5 @@ Fermer Betaflight Configurator, débrancher puis rebrancher la FC (mettre une li
 
 La procédure prends quelques minutes la première fois le temps de compiler le firmware puis l'uploader (les prochaines fois la compilation ne sera pas faite si vous n'effectuer pas de changement de configuration)
 
-une fois le RX flasher vous pouvez reboot la FC, allumer votre radio et votre RX devrait être bind (led fixe), et normalement vos voies devrait répondre sous Betaflight ! 
+Une fois le RX flasher vous pouvez reboot la FC, allumer votre radio et votre RX devrait être bind (led fixe), et normalement vos voies devrait répondre sous Betaflight ! 
 
