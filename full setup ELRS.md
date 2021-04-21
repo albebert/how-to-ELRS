@@ -35,3 +35,13 @@ Avant toute chose il est important de sauvegarder votre radio, pour ce faire nou
 
 Il faut commencer par allumer votre radio en mode bootloader pour ce faire appuyer simultanément sur les trims YAW et ROLL vers le centre (garder appuyer) et allumer votre radio. Brancher là ensuite en USB sur votre PC et lancer Tx Companion.
 
+#### backup du firmware
+Onglet transfert / Lire le firmware de la radio
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_firmware.png"/>
+Sélectionner le dossier souhaitez et choisissez un nom.
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_firmware.png"/>
+Patientez pendant la sauvegarde du firmware
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/backup_radio_firmware.png"/>
+
+#### backup de la SD
+
