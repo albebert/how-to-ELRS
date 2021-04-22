@@ -1,6 +1,6 @@
 # Mise en place du protocole Express LRS sur un TX R9M et RX R9 Mini/MM
 
-# WORK IN PROGRESS !!!
+
 
 
 Bienvenue dans ce tuto de mise en place du protocole Express LRS. 
@@ -8,6 +8,11 @@ Le but est de vous montrer comment mettre en place de A à Z ce protocole
 de manière complète et simple sur de matériel commun. Il sera à adapter
 à votre propre matériel si nécessaire, vous trouverez tout ce dont vous aurez
 besoin le cas échéant sur le [wiki du projet](https://github.com/ExpressLRS/ExpressLRS/wiki)
+
+<ins>Ce tuto est une base, je rajouterais différents points pour aller plus loins au fur et à mesure de mon avancement (mode 2W, tests de RX non compatibles ACCST (R9mx) etc.</ins>
+
+N'hésitez pas à me remonter éventuels soucis ou si une partie vous semble flou soit par MP ou directement des les issues de ce projet github.
+
 
 1. [Installation des outils nécessaires](https://github.com/albebert/how-to-ELRS/blob/main/full%20setup%20ELRS.md#installation-des-outils-n%C3%A9cessaires)
 2. [Mises à jour de la radio](https://github.com/albebert/how-to-ELRS/blob/main/full%20setup%20ELRS.md#mise-%C3%A0-jours-de-la-radio)
