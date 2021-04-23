@@ -277,7 +277,7 @@ Ensuite dans le Device options sélectionner la même fréquence que pour le TX 
 
 Fermer Betaflight Configurator, débrancher puis rebrancher la FC (mettre une lipo si vous n'avez pas de +5VUSB) et cliquer sur `BUILD & FLASH`
 
-<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/rx_firmware_compilation.png"/>
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/rx_firmware_compilation3.png"/>
 
 La procédure prends quelques minutes la première fois le temps de compiler le firmware puis l'uploader (les prochaines fois la compilation ne sera pas faite si vous n'effectuer pas de changement de configuration)
 
