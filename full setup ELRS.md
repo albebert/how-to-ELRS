@@ -26,7 +26,7 @@ N'hésitez pas à me remonter éventuels soucis ou si une partie vous semble flo
 ## Installation des outils nécessaires
 
 Nous aurons besoin de 3 outils (je ne détaille pas l'installation et vous mets les liens pour windows) : [Betaflight Configurator](https://github.com/betaflight/betaflight-configurator/releases/download/10.7.0/betaflight-configurator-installer_10.7.0_win32.exe),
-[Tx Companion](https://downloads.open-tx.org/2.3/release/companion/windows/companion-windows-2.3.10.exe) pour gérer la radio, et [ExpressLRS Configurator](https://github.com/ExpressLRS/ExpressLRS-Configurator/releases/download/v0.4.11/ExpressLRS-Configurator-Setup-0.4.11.exe)
+[Tx Companion](https://downloads.open-tx.org/2.3/release/companion/windows/companion-windows-2.3.10.exe) pour gérer la radio, et [ExpressLRS Configurator](https://github.com/ExpressLRS/ExpressLRS-Configurator/releases/download/v0.4.13/ExpressLRS-Configurator-Setup-0.4.13.exe)
 
 ## Mises à jour de la radio
 
