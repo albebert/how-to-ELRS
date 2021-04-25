@@ -253,11 +253,24 @@ Dans Betaflight Configurator dans l'onglet port configurer le port sur lequel vo
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/betaflight_configuration.png"/>
 
+
 Puis dans l'onglet Configuration définir le récepteur en `RX Série` et `CRSF`
 
 <img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/betaflight_configuration2.png"/>
 
-ensuite dans le `CLI` rentré les commandes suivantes : 
+Puis désactiver le `RSSI_ADC`
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/betaflight_configuration3.png"/>
+
+Dans l'onglet `Récepteur` désactiver le `Canal RSSI`
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/betaflight_configuration4.png"/>
+
+Dans l'OSD activer `Qualité du lien` et `Valeur dBm RSSI` et désactiver `Valeur RSSI`
+
+<img src="https://github.com/albebert/how-to-ELRS/blob/main/imgs/betaflight_configuration5.png"/>
+
+Ensuite dans le `CLI` rentré les commandes suivantes : 
 
     set serialrx_inverted = OFF
     set serialrx_halfduplex = OFF
